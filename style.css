@@ -1,15 +1,15 @@
 body {
-    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-family: 'Cambria', 'Cochin', 'Georgia', Times, 'Times New Roman', sans-serif;
     background-color: #F9B9B7;
     color: #227485;
 }
 
 .cupcake {
-    display: flex;
+  display: flex;
 }
 
 .flex1 {
-    /* flex : 1 */
+     flex : 1 
 }
 
 .flex2 {
@@ -17,7 +17,7 @@ body {
 }
 
 .pl1 {
-    padding-left: 1em;
+    padding-left: 0.5em;
 }
 
 .img {
@@ -28,8 +28,8 @@ body {
 
 
 .cupcake_box {
-    padding: 0.5em;
-    margin: 1em;
+    padding: 1.5em;
+    margin: 0.5em;
     border-radius: 0.5em;
 }
 
